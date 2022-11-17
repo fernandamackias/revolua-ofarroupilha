@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+.album{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 2vw;
+}
+
+.revoluçaofarroupilha img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.revoluçaofarroupilha {
+    
+    width: 300px;
+    height: 300px;
+    border:10px solid rgb(95, 245, 9);
+    flex-grow: 1;
+    box-shadow: 10px 10px 6px red;
+    transition:transform .2s;
+    cursor:url(img/cursor.cur), default;
+}
+.revoluçaofarroupilha:hover{
+filter:brightness(1);
+transform: scale(1.3);
+border:5px royalblue;
+}
+
+.foto img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.foto {
+    
+    filter:sepia(100%);
+    width: 300px;
+    height: 300px;
+    border:10px solid rgb(95, 245, 9);
+    flex-grow: 1;
+    box-shadow: 10px 10px 6px red;
+    transition:transform .2s;
+    cursor:url(img/cursor.cur), default;
+}
+.foto:hover{
+filter:brightness(1);
+transform: scale(1.3);
+border:5px royalblue;
+}
+
+
